@@ -16,7 +16,7 @@ def chooseCave():
 
      return cave
 
-def checkCave(chosenCave):
+def checkCave(SelectNumber):
     print('You approach the cave...')
     time.sleep(2)
     print('It is dark and spooky...')
@@ -27,7 +27,7 @@ def checkCave(chosenCave):
 
     friendlyCave = 1
 
-    if chooseCave == str(friendlyCave):
+    if SelectNumber == str(friendlyCave):
         print('Gives you his treasure!')
     else:
         print('Gobbles you down in one bite!') 
